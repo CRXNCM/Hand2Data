@@ -1,0 +1,11 @@
+Starting TrOCR download utility
+Log file: C:\Users\hp\Documents\pro\Hand2Data\backend\python_ocr\logs\trocr_download_20250908_060304.log
+Target directory: C:\Users\hp\Documents\pro\Hand2Data\backend\python_ocr\trocr-small-handwritten
+Downloading microsoft/trocr-small-handwritten...
+Environment info:
+  HF_HOME=
+  TRANSFORMERS_CACHE=
+  PYTHON=C:\Users\hp\Documents\pro\Hand2Data\backend\venv\Scripts\python.exe
+Step 1/2: Downloading processor...
+   Processor saved.
+Step 2/2: Downloading model (this may take several minutes)...

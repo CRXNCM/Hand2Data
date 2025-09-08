@@ -1,0 +1,40 @@
+# FastAPI and web server
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+python-multipart>=0.0.6
+
+# Core OCR dependencies
+pytesseract>=0.3.10
+opencv-python>=4.8.0
+Pillow>=10.0.0
+numpy>=1.24.0
+
+# GPU support (PyTorch)
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Transformers for TrOCR
+transformers>=4.30.0
+tokenizers>=0.13.0
+
+# Image processing and utilities
+scikit-image>=0.20.0
+matplotlib>=3.6.0
+
+# File handling and validation (optional - will fallback to mimetypes if not available)
+# python-magic>=0.4.27
+# python-magic-bin>=0.4.14; sys_platform == "win32"
+
+# Utilities
+tqdm>=4.64.0
+requests>=2.28.0
+python-dotenv>=1.0.0
+
+# Development tools (optional)
+pytest>=7.2.0
+black>=22.12.0
+flake8>=6.0.0
+
+# Additional dependencies for better performance
+aiofiles>=23.2.0
+httpx>=0.25.0
